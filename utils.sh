@@ -25,10 +25,5 @@ function build {
     echo ${builded_image_id}
 }
 
-function publish {
-    local "${@}"
-    echo "Pushing image to registry"
-    docker push
-}
 
 $@
