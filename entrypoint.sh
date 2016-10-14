@@ -9,6 +9,7 @@ echo "Current directory: " $CURRENT_DIR
 #npm config set registry http://registry.npmjs.org
 #npm install --prod
 
+
 echo "Starting application..."
 exec "$@"
 
