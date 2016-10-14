@@ -6,7 +6,7 @@ WORKDIR /usr/src/app/
 VOLUME /usr/src/app
 ADD package.json /usr/src/app/
 
-# "Installs app dependencies"
+# "Installs app default dependencies"
 RUN npm config set registry http://registry.npmjs.org/ \
     && npm install --prod
 
