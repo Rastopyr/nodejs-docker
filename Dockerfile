@@ -15,3 +15,4 @@ ADD entrypoint.sh /var/tmp/entrypoint.sh
 EXPOSE 8888
 ENTRYPOINT ["/var/tmp/entrypoint.sh"]
 CMD [ "npm", "start" ]
+
