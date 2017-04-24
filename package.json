@@ -45,7 +45,8 @@
     "sequelize": "^3.24.3",
     "threads": "^0.7.0",
     "underscore": "^1.8.3",
-    "vision": "^4.0.1"
+    "vision": "^4.0.1",
+    "node-expat": "^2.3.15"
   },
   "devDependencies": {
     "chai": "^3.5.0",
