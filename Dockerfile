@@ -1,4 +1,4 @@
-FROM node:7.7.2
+FROM node:7.10.0
 MAINTAINER Erick Ponce Leão "erickponceleao@gmail.com"
 ENV APP_VERSION=0.0.1
 
