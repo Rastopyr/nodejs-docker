@@ -1,6 +1,6 @@
 FROM node:7.10.0
 MAINTAINER Erick Ponce Leão "erickponceleao@gmail.com"
-ENV APP_VERSION=0.0.1
+ENV APP_VERSION=0.0.2
 
 ADD package.json /install/
 WORKDIR /install
